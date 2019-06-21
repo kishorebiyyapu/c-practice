@@ -13,6 +13,6 @@ int main()
 			a=a+1;
 		}
 	}
-	printf("%d",a);
+	printf("%d",a+1);
 	return 0;
 }
