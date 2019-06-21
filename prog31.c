@@ -8,12 +8,12 @@ int main()
 	n=strlen(c);
 	for(i=0;i<n;i++)
 	{
-		if(c[i]>='0' && c[i]<='9')
+		if(c[i] == ' ')
 		{
 			a=a+1;
 		}
-	
 	}
-	printf("%d",a);
+	printf("%d",n-a);
 	return 0;
 }
+
