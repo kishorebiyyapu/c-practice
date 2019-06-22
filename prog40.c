@@ -5,8 +5,8 @@ int main()
 	scanf("%d",&n);
 	a=0;
 	b=1;
-	printf("0 1 ");
-	for(i=3;i<=n;i++)
+	printf("1 ");
+	for(i=2;i<=n;i++)
 	{
 		f=a+b; 
 		a=b;
