@@ -1,17 +1,17 @@
 #include<stdio.h>
 int main()
 {
-	int N,K,a[100],i,c=0;
+	int N,K,b[100],j,co=0;
 	scanf("%d%d",&N,&K);
-	for(i=1;i<=N;i++)
+	for(j=1;j<=N;j++)
 	{
-		scanf("%d",&a[i]);
+		scanf("%d",&b[j]);
 	}
-	for(i=0;i<+N;i++)
+	for(j=0;j<=N;j++)
 	{
-		if(a[i]==K)
-		   c=c+1;
+		if(b[j]==K)
+		   co=co+1;
 	}
-	printf("%d",c);
+	printf("%d",co);
 	return 0;
 }
