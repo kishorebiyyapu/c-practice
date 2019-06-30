@@ -18,6 +18,6 @@ int main()
 	if(strlen(s)==(c+d))
 	    printf("Yes");
 	else     
-	     printf("N0");
+	     printf("No");
 	return 0;
 }
