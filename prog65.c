@@ -1,7 +1,9 @@
 #include<stdio.h>
 char main()
 {
-	if(printf("hello world"))
+	char s[100];
+	gets(s);
+	if(puts(s))
 	{
 		
 	}
